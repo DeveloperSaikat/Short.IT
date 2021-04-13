@@ -1,0 +1,44 @@
+html{
+    background: linear-gradient(rgb(133, 101, 248), white) fixed;
+}
+
+.main-section{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+}
+   
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.user-input{
+    width: 98%;
+    font-size: medium;
+}
+
+.btn-submit{
+    color: white;
+    background-color: teal;
+    font-size: large;
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn-submit:hover{
+    background-color: tomato;
+}
+
+.result{
+    text-align: center;
+}
